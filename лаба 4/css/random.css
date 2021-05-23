@@ -1,0 +1,21 @@
+body{
+    margin-top:20px;
+    color: #1a202c;
+    text-align: left;
+    background-color: #e2e8f0;    
+}
+.main-body {
+    padding: 15px;
+}
+#dude li{
+    list-style-type: none;
+    border: solid 1px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+ul{
+    display:grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-auto-rows: 250px;
+    font-family:'Helvetica';
+}
